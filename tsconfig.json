@@ -3,6 +3,18 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@shared/*": [
+        "src/shared/*"
+      ],
+      "@layout/*": [
+        "src/layout/*"
+      ],
+    },
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
