@@ -6,14 +6,17 @@
     "baseUrl": "./src",
     "paths": {
       "@components/*": [
-        "src/components/*"
+        "app/components/*"
       ],
       "@shared/*": [
-        "src/shared/*"
+        "app/shared/*"
       ],
       "@layout/*": [
-        "src/layout/*"
+        "app/layout/*"
       ],
+      "@interaces/*": [
+        "app/interfaces/*"
+      ]
     },
     "strict": true,
     "noImplicitOverride": true,
